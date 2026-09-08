@@ -3,6 +3,11 @@
     static void Main(string[] args)
     {
         // Question01.Run();
-        Question02.Run();
+        // Question02.Run();
+        // Question03.Run();
+        // Question04.Run();
+        // Question05.Run();
+        // Question06.Run();
+        Question07.Run();
     }
 }
