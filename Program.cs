@@ -13,6 +13,14 @@
         // Question09.Run();
         // Question10.Run();
         // Question14.Run();
-        Question15.Run();
+        // Question15.Run();
+        // Question16.Run();
+        // Question17.Run();
+        // Question18.Run();
+        // Question19.Run();
+        // Question20.Run();
+        // Question21.Run();
+        // Question22.Run();
+        // Question23.Run();
     }
 }
