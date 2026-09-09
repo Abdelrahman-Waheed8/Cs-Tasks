@@ -22,5 +22,11 @@
         // Question21.Run();
         // Question22.Run();
         // Question23.Run();
+        // Question24.Run();
+        // Question25.Run();
+        // Question26.Run();
+        // Question27.Run();
+        // Question28.Run();
+        Queston29.Run();
     }
 }
