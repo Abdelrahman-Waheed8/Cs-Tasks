@@ -1,4 +1,4 @@
-public class Queston29
+public class Question29
 {
     public static void Run()
     {
