@@ -59,7 +59,7 @@
         int questChoice;
         Console.WriteLine("============ C# Basics Tasks ============");
         Console.Write("Enter 1 for Normal Quesitons 2 for functions question: ");
-        while(!int.TryParse(Console.ReadLine(), out categoryChoice) || categoryChoice < 0 || categoryChoice > 2)
+        while(!int.TryParse(Console.ReadLine(), out categoryChoice) || categoryChoice < 1 || categoryChoice > 2)
         {
             Console.Write("Invalid choice! Enter valid choice 1 Normal Quesitons or 2 Functions Questions: ");
         }
@@ -78,7 +78,7 @@
         else if( categoryChoice ==2)
         {
             Console.Write("Enter Function question number to run: ");
-            if(int.TryParse(Console.ReadLine(), out questChoice) && Questions.ContainsKey(questChoice))
+            if(int.TryParse(Console.ReadLine(), out questChoice) && FuncQuestions.ContainsKey(questChoice))
             {
                 Console.WriteLine($"\n            Running Function Question {questChoice}\n");
                 FuncQuestions[questChoice].Invoke();
