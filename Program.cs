@@ -39,6 +39,11 @@
         // Question38.Run();
         // Question39.Run();
         // Question40.Run();
-        Question41.Run();
+        // Question41.Run();
+        // FuncQ1.Run();
+        // FuncQ2.Run();
+        // FuncQ3.Run();
+        // FuncQ4.Run();
+        FuncQ5.Run();
     }
 }
