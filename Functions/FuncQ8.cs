@@ -17,7 +17,7 @@ public class FuncQ8
     public static void Run()
     {
         Console.Write("Enter string: ");
-        string str = Console.ReadLine();
+        string str = Console.ReadLine() ?? "";
 
         Console.Write("Enter position to be modified: ");
         int.TryParse(Console.ReadLine(), out int pos);
